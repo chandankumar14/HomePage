@@ -1,0 +1,326 @@
+
+
+#heading{
+	text-align:center;
+	font-family: 'Josefin Slab', serif;
+	 background-color:black;
+	 color:wheat;
+	 top:0px;
+}
+
+
+
+#top-image{
+    width: 100%;
+    height: 450px;
+}
+
+.logo{
+    position: absolute;
+    top: 91px;
+    left: 576px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 29px;
+    border-radius: 50%;
+    color: red;
+}
+.content{
+    position: absolute;
+    top: 150px;
+    left: 390px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+  
+    line-height: 1.53;
+   
+    text-align: left;
+    color: white;
+}
+#quick{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card1{
+    width: 360px;
+    height: 160px;
+   float: left;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px #000000;
+    margin: 25px 25px ;
+    border-radius: 10px;
+   
+}
+.left {
+    width: 40%;
+    height: 100%;
+    float: left;
+   vertical-align: top;
+   
+}
+.right{
+    width: 50%;
+    height: 100%;
+   float: left;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.left #img12{
+    width: 160px;
+    height: 160px;
+  border-radius: 10px;
+  padding-bottom: 3px;
+}
+
+.breakfast{
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+   
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-left: 25px;
+    letter-spacing: normal;
+    text-align: left;
+    color: darkslateblue;
+}
+
+.paracontent{
+    width: 137px;
+  height: 62px;
+  font-family: Poppins;
+  font-size: 14px;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 17spx;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+color: darkslateblue;
+margin-top: 8px;
+}
+
+/* footer csss is start from here---------*/
+#footer1{
+    margin-top: 15px;
+    background-color: green;
+}
+
+#design{
+    font-size: 25px;
+    color: wheat;
+    font-family: 'josefin slab',serif;
+}
+#img{
+    width: 40%;
+    height: 150px;
+   border-radius: 10px;
+}
+p{
+    color: wheat;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+ a{
+    display: block;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+#p{
+    color: wheat;
+}
+.company ,.contact{
+    color: wheat;
+    font-size: 25px;
+    font-family: 'josefin slab',serif;
+}
+.mob{
+    color: wheat;
+    font-size: 20px;
+}
+
+.copyright{
+    font-family: 'josefin slab',serif;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+   
+   
+    #heading{
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        background-color: black;
+        color: wheat;
+        top: 0px;
+        font-size: 23px;
+    }
+   
+    .logo {
+        position: absolute;
+        top: 97px;
+        left: 162px;
+        width: 78px;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        padding-top: 4px;
+        font-size: 29px;
+        border-radius: 50%;
+        color: darkorange;
+        font-family: 'Josefin Slab', serif;
+    }
+    .content {
+        position: absolute;
+        top: 168px;
+        left: 15px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-align: justify;
+        color: white;
+        font-family: 'Josefin Slab';
+    }
+
+    #quick {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 28px;
+    }
+
+    .card1 {
+        width: 360px;
+        height: 160px;
+       float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 25px 25px ;
+        border-radius: 10px;
+    }
+
+
+  }
+
+  
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+    
+    .logo {
+        position: absolute;
+        top: 113px;
+        left: 248px;
+        width: 80px;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        padding-top: 3px;
+        font-size: 29px;
+        border-radius: 50%;
+        color: red;
+        font-family: 'Josefin Slab';
+    }
+
+    .content {
+        position: absolute;
+        top: 202px;
+        left: 33px;
+        font-family: 'Josefin Slab';
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-align: justify;
+        color: white;
+    }
+
+    #quick {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 22px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card1 {
+        width: 360px;
+        height: 160px;
+        float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 12px 84px;
+        border-radius: 10px;
+    }
+
+    #img {
+        width: 63%;
+        height: 142px;
+        border-radius: 10px;
+    }
+  }
+  
+
+
+  
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+    .logo {
+        position: absolute;
+        top: 51px;
+        left: 372px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        /* padding-top: 10px; */
+        font-size: 29px;
+        border-radius: 50%;
+        color: red;
+    }
+
+    .content {
+        position: absolute;
+        top: 132px;
+        left: 154px;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-align: left;
+        color: white;
+    }
+
+    .card1 {
+        width: 360px;
+        height: 160px;
+        float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 28px 65px;
+        border-radius: 10px;
+    }
+
+    #img {
+        width: 56%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+
+
+  }
